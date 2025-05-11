@@ -12,6 +12,8 @@ int main(){
     cout<<"negative"<<endl;
    }
 
+   cout<<(n>=0? "positive" : "negative");
+
 
 
 
