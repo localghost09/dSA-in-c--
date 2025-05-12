@@ -23,12 +23,25 @@ using namespace std;
 // }
 
 
+// Calculate Factorial of N numbers;
+
+// int factorial(int n){
+//     int fact=1;
+//     for(int i=1;i<=n; i++){
+//         fact *=i;
+//     }
+//     return fact;
+// }
+
 int main(){
 
    // printHello();
     //cout<< "sum of two number " <<sum(5,4)<<endl;
     
     //cout<<"Sum of N number are " <<sumOFN(5)<<endl;
+
+    //cout<<"Factorial of N number are " <<factorial(3)<<endl;
+
 
     return 0;
 }
