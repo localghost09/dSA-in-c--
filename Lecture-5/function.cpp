@@ -33,6 +33,14 @@ using namespace std;
 //     return fact;
 // }
 
+//Pass By Value
+//copy of arguments was passed
+
+void changeX(int x){
+    x=x*2;
+    cout<< " x = " <<x<<endl; 
+}
+
 int main(){
 
    // printHello();
@@ -42,6 +50,9 @@ int main(){
 
     //cout<<"Factorial of N number are " <<factorial(3)<<endl;
 
+    int x = 5; 
+    changeX(x);
+    cout<< " x = "<<x<<endl;
 
     return 0;
 }
