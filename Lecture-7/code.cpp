@@ -7,11 +7,11 @@ int main() {
     // cout<<(a|b)<<endl;
     // cout<<(a^b)<<endl;
 
-    {
-        int x = 5;  //local scope
-    }
+    // {
+    //     int x = 5;  //local scope
+    // }
 
-    cout<<x<<endl;
+    // cout<<x<<endl;
 
 
     return 0;
