@@ -27,12 +27,12 @@ int BinToDec(int binary){
 int main() {
     
 
-    // int n;
-    // cout<<"Enter a N Decimal Number"<<endl;
-    // cin>>n;
-    // for(int i=1; i<=n; i++){
-    //     cout<< decToBinary(i)<<endl;
-    // }
+    int n;
+    cout<<"Enter a N Decimal Number"<<endl;
+    cin>>n;
+    for(int i=1; i<=n; i++){
+        cout<< decToBinary(i)<<endl;
+    }
 
     
     cout<<BinToDec(101);
