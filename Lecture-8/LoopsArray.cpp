@@ -25,15 +25,16 @@ int main() {
     // int size = sizeof(arr)/sizeof(arr[0]);
 
     // int large = 0; //we can also use INT_MIN; AND arr[0];
-
+    //     int index = -1;
     // for(int i=0; i<size; i++){
     //     if(arr[i]>large){
     //         large = arr[i];
+    //         index = i;
     //     }
     // }
 
-    // cout<<large;
-
+    // cout<<large<<endl;
+    // cout<<index;
 
 
     return 0;
