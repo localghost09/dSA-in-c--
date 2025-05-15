@@ -18,5 +18,16 @@ int main() {
     // for(int i:vec){
     //     cout<<i <<endl;
     // }
+
+    //vec.pop_back();
+    // for(int val:vec){
+    //     cout<<val<<endl;
+    // }
+
+    cout<< vec.front() <<endl;
+    cout<<vec.back() <<endl;
+    cout<<vec.at(1)<<endl;
+
+
     return 0;
 }
