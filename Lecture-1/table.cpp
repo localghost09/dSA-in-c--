@@ -1,14 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
-    int n;
-    cout<<"Enter a number "<<endl;
-    cin>>n;
+    int limit;
+    cout << "Enter the upper limit: ";
+    cin >> limit;
 
-    for(int i=1; i<=10; i++){
-        cout<<i*n<<endl;
+    cout << "Prime numbers up to " << limit << " are:\n";
+    for (int i = 2; i <= limit; i++) {
+        if (isPrime(i)) {
+            cout << i << " ";
+        }
     }
-
+    cout << endl;
     return 0;
 }
